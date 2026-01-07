@@ -28,10 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (storedPassword && storedPassword === loginPassword) {
         alert("Login Successful!");
-        window.location.href = "https://yukthabo.github.io/AI-BASED-REPORT-ANALYZER/"; // change to your analyzer app page
+        window.location.href = ""; // change to your analyzer app page
       } else {
         alert("Invalid ID or Password. Please try again or register.");
       }
     });
   }
+
 });
